@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Flappy Bird</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <style>
     body{
       padding: 0;
       margin: 0;
+      font-family: "Press Start 2P";
     }
     img{
       display: none;
@@ -17,11 +19,15 @@
 </head>
 <body>
   <canvas id="canvas"></canvas>
+  <h1>Press Enter to start.</h1>
+  <h1>Keep pressing the space bar to stay afloat but not so much you fly into the pipes.</h1>
   <img src="images/bird1.png" id="bird1" />
   <img src="images/bird2.png" id="bird2" />
   <img src="images/bird3.png" id="bird3" />
   <img src="images/bg.png" id="bg" />
+  <img src="images/fail.png" id="fail" />
 
+  <script src="js/Pipe.js"></script>
   <script src="js/Bird.js"></script>
   <script src="js/Environment.js"></script>
   <script src="js/main.js"></script>
