@@ -4,13 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Flappy Bird</title>
+  <title>Scrappy Bird</title>
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <style>
     body{
       padding: 0;
       margin: 0;
       font-family: "Press Start 2P";
+      color: #ffffff;
+      background-color: #000000;
+      display: block;
+      text-align: center;
     }
     img{
       display: none;
@@ -19,8 +23,10 @@
 </head>
 <body>
   <canvas id="canvas"></canvas>
-  <h1>Press Enter to start.</h1>
-  <h1>Keep pressing the space bar to stay afloat but not so much you fly into the pipes.</h1>
+  <h1>SCRAPPY BIRD</h1>
+  <h2 id="score"></h2><br><br>
+  <h2>Press the space bar to fly.</h2>
+  <h2>Press Enter to reload.</h2>
   <img src="images/bird1.png" id="bird1" />
   <img src="images/bird2.png" id="bird2" />
   <img src="images/bird3.png" id="bird3" />
