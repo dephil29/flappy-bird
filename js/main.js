@@ -57,5 +57,6 @@ function generateRandomPipes(ctx, canvasWidth, canvasHeight){
 
 function drawGameOver(ctx, c){
   var img = document.getElementById("fail");
-  ctx.drawImage(img, 600, 150);
+  ctx.drawImage(img, 400, 150);
+  // ctx.drawImage(img, 0, 0, 100, 100 * 600 / 150)
 }
